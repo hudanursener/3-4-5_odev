@@ -1,6 +1,7 @@
 {
     "name": "mebisclass",
     "version": "1.0.0",
+    "main": "app.js",
     "description": "lab uygulaması",
     "dependencies": {
         "body-parser": "^1.18.3",
@@ -13,6 +14,7 @@
         "save": "^2.3.3"
     },
     "scripts": {
-        "start": "node app.js"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "app.js"
     }
 }
