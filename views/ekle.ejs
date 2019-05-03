@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sanatçı Ekle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css">
+</head>
+
+<body>
+    <form method="POST" action="http://localhost:4000/sanatci" class="card container"
+        style="margin-top:100px; padding:1%; background-color: rgb(159, 179, 216);">
+        <div class="field">
+            <label class="label">Sanatçı Adi Soyadi</label>
+            <div class="control">
+                <input class="input" type="text" name="ad">
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Sanatçı hayatta mı?</label>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="1" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                    Evet
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="0">
+                <label class="form-check-label" for="exampleRadios2">
+                    Hayır
+                </label>
+            </div>
+        </div>
+        <div class="field">
+            <label class="label">Dogum Tarihi (Yıl)</label>
+            <div class="control">
+                <input class="input" name="dTarihi" cols="30" rows="10">
+            </div>
+        </div>
+
+        <div class="field is-grouped">
+            <div class="control">
+                    <button type="submit"class="button is-link"style="margin-left:1050px;">Kaydet</button>
+
+                
+
+            </div>
+        </div>
+    </form>
+
+</body>
+
+</html>
