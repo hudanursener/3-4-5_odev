@@ -3,7 +3,7 @@ const sql = require('mssql')
 var webconfig = {
     user: 'hudanursener_SQLLogin_1',
     password: '4os98ols46',
-    server: '13.0.1742.0',
+    server: 'HUDANUR.mssql.somee.com',
     database: 'HUDANUR'
 };
 module.exports.listele = function (req, res) {

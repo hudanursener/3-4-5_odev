@@ -4,7 +4,7 @@ var yukle = multer({ dest: 'uploads/' })
 
 const bp = require('body-parser');
 const app = express()
-const port = 4000
+const port = 8080
 const login = require("./islemler")
 
 app.use(express.static('uploads'))
