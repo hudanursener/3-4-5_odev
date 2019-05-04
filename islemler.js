@@ -1,11 +1,11 @@
 const sql = require('mssql')
 
-var webconfig = {
-    user: 'hudanursener_SQLLogin_1',
-    password: '4os98ols46',
-    server: 'HUDANUR.mssql.somee.com',
-    database: 'HUDANUR'
-};
+var webconfig = { user: "batuhan",
+                 password: "KD@:S/5Y", 
+                 server: "nodejsbatuhan.database.windows.net", 
+                 database: "MEDIPOL", 
+                 options: { encrypt: true }
+                };
 module.exports.listele = function (req, res) {
     sql.connect(webconfig, function (err) {
         if (err) console.log(err);
